@@ -132,6 +132,30 @@ JSX কে যে কোন একটা প্রোগ্রামিং  স�
 * Syntax extension that allows HTML in JavaScript.
 * We can write statement as JSX
 
+
+  ✅ Babel – Transpiler Tool in React
+🔧 What is Babel?
+Babel is a JavaScript transpiler that converts modern JavaScript (like ES6/ES7/ESNext, JSX) into backward-compatible JavaScript that can run in older browsers or environments.
+
+📌 Why is Babel used in React?
+React uses JSX syntax, which browsers do not understand directly.
+Babel converts JSX into regular JavaScript that browsers can execute.
+
+🛠️ Example: JSX to JavaScript
+✅ JSX Code:
+
+```jsx
+const element = <h1>Hello, world!</h1>;
+
+```
+
+
+🔄 Babel Transpiles to:
+```js
+const element = React.createElement('h1', null, 'Hello, world!');
+
+```
+
 ### Components
 
 Component is also called custom Html element

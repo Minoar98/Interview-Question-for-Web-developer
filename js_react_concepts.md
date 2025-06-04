@@ -142,6 +142,7 @@ React uses JSX syntax, which browsers do not understand directly.
 Babel converts JSX into regular JavaScript that browsers can execute.
 
 🛠️ Example: JSX to JavaScript
+
 ✅ JSX Code:
 
 ```jsx
@@ -151,6 +152,7 @@ const element = <h1>Hello, world!</h1>;
 
 
 🔄 Babel Transpiles to:
+
 ```js
 const element = React.createElement('h1', null, 'Hello, world!');
 

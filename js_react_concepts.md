@@ -471,7 +471,7 @@ component আলাদাভাবে থাকায় মেইনটেই�
 
 ![Without using props](without-using-.png)
 
-### Example / উদাহরণ:
+### Example :
 
 ```jsx
 // Parent Component
@@ -492,7 +492,7 @@ function Child(props) {
 
 ## Making Components Configurable with Props
 
-Props let you configure a component, so the same component can be reused with different data.
+Props let you configure a component so that the same component can be reused with different data.
 
 প্রপস দিয়ে তুমি একটি কম্পোনেন্ট কনফিগার করতে পারো, ফলে একই কম্পোনেন্ট বিভিন্ন ডেটা নিয়ে বারবার ব্যবহার করা যায়।
 
